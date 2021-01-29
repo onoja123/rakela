@@ -246,6 +246,9 @@ button {
 
 /**-- heading section --**/
 
+.menu-area-main{
+     background-color: red;
+}
 .main_heading {
      text-align: center;
      display: flex;
