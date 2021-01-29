@@ -248,6 +248,12 @@ button {
 
 .menu-area-main{
      background-color: red;
+     padding: 10px 0;
+    background: url(../images/hea.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center center;
+}
 }
 .main_heading {
      text-align: center;
