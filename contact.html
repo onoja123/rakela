@@ -112,22 +112,20 @@
                     <form class="main_form">
                         <div class="row">
                             <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
-                                <form name="contact" method="POST" data-netlify="true">
-                                <input class="form-control" placeholder="Your name" type="text" name="Your Name">
-                            </div>
-                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
-                                <input class="form-control" placeholder="Email" type="text" name="Email">
-                            </div>
-                            <div class=" col-md-12">
-                                <input class="form-control" placeholder="Phone" type="text" name="Phone">
-                            </div>
-                            <div class="col-md-12">
-                                <textarea class="textarea" placeholder="Message"></textarea>
-                            </div>
-                            <div class=" col-md-12">
-                                <button class="send">Send</button>
-                                </form>
-                                 <form name="contact" method="POST" data-netlify="true">
+                        <form name="contact" method="POST" data-netlify="true">
+  <p>
+    <label>Your Name: <input type="text" name="name" required/></label>   
+  </p>
+  <p>
+    <label>Your Email: <input type="email" name="email" required/></label>
+  </p>
+  <p>
+    <label>Message: <textarea name="message" required></textarea></label>
+  </p>
+  <p>
+    <button type="submit">Send</button>
+  </p>
+</form>
       <script>
           document.querySelector("form").addEventListener("submit", handleSubmit);
 
