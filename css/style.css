@@ -248,10 +248,10 @@ button {
 
 .menu-area-main{
      background-color: red;
-     padding: 70px 0;
+     padding: 10px 0;
     background: url(../images/hea.png);
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: 200% 200%;
     background-position: center center;
 }
 }
