@@ -261,7 +261,7 @@ button {
     background: url(../images/hea.png);
     background-repeat: no-repeat;
     background-size: 400% 400%;
-    background-position: center right;
+    background-position: 50% 0%;
 }
 .main_heading h2 {
      padding: 0;
